@@ -1,0 +1,60 @@
+.cardBookAClass
+    width: 220px
+    height: 325px
+    border: 2px solid #e6e6e61b
+    border-radius: 20px
+    background-color: #6866662f
+    padding: 1em
+    display: flex
+    flex-direction: column
+    gap: .2em
+    z-index: 1
+    position: absolute
+    bottom: -100px
+    left: -50px
+
+    p
+        font-size: x-small
+        opacity: .6
+        line-height: 18px
+        width: 80%
+
+    .infoOfCard
+        width: 100%
+        display: flex
+        gap: 1em
+        justify-content: center
+        align-items: flex-start
+        margin-top: 10px
+        padding: 5px
+
+        section
+            display: flex
+            flex-direction: column
+            gap: 4px
+        p
+            width: 90%
+
+    .marked
+        border: 2px solid #e6e6e61b
+        border-radius: 10px
+
+    .imgContact,
+    .imgRay,
+    .imgMedal
+        width: 30px
+        height: 20px
+        border-radius: 100%
+        background-size: cover
+        background-position: center
+
+    .imgContact
+        background-image: url('../../assets/contact.png')
+
+    .imgRay
+        background-color: #105ff1
+        color: white
+        background-image: url('../../assets/ray.png')
+
+    .imgMedal
+        background-image: url('../../assets/medal.png')
