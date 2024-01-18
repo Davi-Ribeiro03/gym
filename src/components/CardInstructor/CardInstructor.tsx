@@ -1,4 +1,3 @@
-import React from "react";
 import "./CardInstructor.sass";
 import medal from "../../assets/medal.png";
 

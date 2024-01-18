@@ -1,4 +1,3 @@
-import React from "react";
 import "./PresentationHome.sass";
 import ImgCards from "../ImgCards/ImgCards";
 import { motion } from "framer-motion";

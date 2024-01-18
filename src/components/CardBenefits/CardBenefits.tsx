@@ -1,4 +1,3 @@
-import React from "react";
 import "./CardBenefits.sass";
 import { motion } from "framer-motion";
 

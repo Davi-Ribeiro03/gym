@@ -1,4 +1,3 @@
-import React from "react";
 import img from "../../assets/imageHome.svg";
 import "./ImgCards.sass";
 

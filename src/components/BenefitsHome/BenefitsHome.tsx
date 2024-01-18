@@ -1,4 +1,3 @@
-import React from "react";
 import "./BenefitsHome.sass";
 import CardBenefits from "../CardBenefits/CardBenefits";
 import trofeu from "../../assets/trofeu.svg";

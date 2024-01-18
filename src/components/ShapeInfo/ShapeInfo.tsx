@@ -1,4 +1,3 @@
-import React from "react";
 import "./ShapeInfo.sass";
 import Button from "../Button/Button";
 import CardBookAClass from "../CardBookAClass/CardBookAClass";
