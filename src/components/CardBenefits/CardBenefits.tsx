@@ -2,7 +2,6 @@ import "./CardBenefits.sass";
 import { motion } from "framer-motion";
 
 interface benefits {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   img: string;
   title: string;
   description: string;

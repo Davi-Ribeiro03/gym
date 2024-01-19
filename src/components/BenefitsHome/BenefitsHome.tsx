@@ -34,8 +34,8 @@ const benefits = [
 
 const BenefitsHome = () => {
   return (
-    <div className="containerBenefitsHome">
-      <h1>Why Choose Us</h1>
+    <div className="cardBenefitsHome">
+      <h2>Why Choose Us</h2>
 
       <p>
         When picking a gym, consider its amenities like guest access, hours,

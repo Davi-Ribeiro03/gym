@@ -1,4 +1,4 @@
-import img from "../../assets/imageHome.svg";
+import img from "../../assets/instructor.svg";
 import "./ImgCards.sass";
 
 const ImgCards = () => {
