@@ -1,4 +1,3 @@
-import React from "react";
 import "./CardMembership.sass";
 import MembershipValues from "../MembershipValues/MembershipValues";
 
@@ -19,12 +18,11 @@ const CardMembership = () => {
       </p>
 
       <div className="plans">
-        {membershipPlans.map((plan, index) => (
+        {membershipPlans.map((plan) => (
           <MembershipValues
             name={plan.name}
             value={plan.value}
             benefitsReleaseds={plan.benefitsReleased}
-            index={index}
           />
         ))}
       </div>

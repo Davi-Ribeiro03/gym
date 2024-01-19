@@ -1,4 +1,3 @@
-import React from "react";
 import "./MembershipValues.sass";
 import check from "../../assets/check.png";
 import Button from "../Button/Button";
