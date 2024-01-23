@@ -1,6 +1,7 @@
 import "./PresentationHome.sass";
 import ImgCards from "../ImgCards/ImgCards";
 import { motion } from "framer-motion";
+import Button from "../Button/Button";
 
 const PresentationHome = () => {
   return (
@@ -21,7 +22,7 @@ const PresentationHome = () => {
             Gym session or brisk walk can help. Physical activy stimulates many
             brain chemicals that may leave you.
           </p>
-          <button>Be a Member</button>
+          <Button>Be a Member</Button>
         </section>
       </motion.div>
 

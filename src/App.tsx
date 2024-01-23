@@ -5,6 +5,8 @@ import CardMembership from "./components/CardMembership/CardMembership";
 import Header from "./components/Header/Header";
 import PresentationHome from "./components/PresentationHome/PresentationHome";
 import ShapeInfo from "./components/ShapeInfo/ShapeInfo";
+import JoinTheGym from "./components/JoinTheGym/JoinTheGym";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <ShapeInfo />
       <CardMembership />
       <ContainerAssessment />
+      <JoinTheGym />
+      <Footer />
     </div>
   );
 }

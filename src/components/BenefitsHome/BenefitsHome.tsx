@@ -34,7 +34,7 @@ const benefits = [
 
 const BenefitsHome = () => {
   return (
-    <div className="cardBenefitsHome">
+    <div className="containerBenefitsHome">
       <h2>Why Choose Us</h2>
 
       <p>

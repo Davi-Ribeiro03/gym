@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const CustonButton = styled.button`
   background-color: #03ffff;
+  border: none;
   width: 140px;
   height: 40px;
   border-radius: 50px;
