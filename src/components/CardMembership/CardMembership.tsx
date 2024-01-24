@@ -20,6 +20,7 @@ const CardMembership = () => {
       <div className="plans">
         {membershipPlans.map((plan) => (
           <MembershipValues
+            key={plan.benefitsReleased}
             name={plan.name}
             value={plan.value}
             benefitsReleaseds={plan.benefitsReleased}

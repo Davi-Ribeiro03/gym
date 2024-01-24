@@ -14,7 +14,7 @@
         widht: 200px
         height: 40px
 
-    ul
+    .desktop
         display: flex
         gap: 2.5em
 
@@ -27,3 +27,47 @@
         li:hover
             color: #5FC7C8
             cursor: pointer
+
+    .menuHamburguer
+        display: none
+
+@media (max-width: 885px)
+    .header
+        position: relative
+
+        .desktop
+            display: none
+
+        .mobile
+            background-color: #1a1919
+            display: bock
+            height: 70vh
+            width: 300px
+            position: absolute
+            top: 38px
+            right: 0px
+            display: flex
+            flex-direction: column
+            gap: 1em
+            text-align: center
+            padding: 1em
+            z-index: 2
+            border-radius: 10px
+
+            li
+                list-style: none
+                color: white
+                font-size: large
+                font-weight: bold
+                padding: 1em
+
+            li:hover
+                background-color: #5FC7C8
+                color: black
+
+        .menuHamburguer
+            display: block
+
+@media (max-width: 500px)
+    .header
+        width: 100%

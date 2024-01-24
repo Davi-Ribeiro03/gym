@@ -46,6 +46,7 @@ const BenefitsHome = () => {
         <div className="benefitsInfo">
           {benefits.map((ben) => (
             <CardBenefits
+              key={ben.title}
               img={ben.img}
               title={ben.title}
               description={ben.description}
