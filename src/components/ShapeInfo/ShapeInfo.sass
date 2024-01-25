@@ -6,12 +6,13 @@
     justify-content: center
     margin-bottom: 100px
     gap: 8em
+    flex-wrap: wrap
 
     .cardLeft
         display: flex
         flex-direction: column
         gap: 1em
-        width: 30%
+        width: 450px
 
         h2
             font-size: 40px
@@ -26,7 +27,57 @@
             width: 90%
 
     .cardRight
-        width: 40%
+        width: 600px
         display: flex
         justify-content: center
         position: relative
+
+@media screen and (max-width: 1178px)
+    .containerShapeInfo
+        flex-direction: column
+        gap: 1.5em
+
+        .cardLeft
+            width: 600px
+            justify-content: center
+            align-items: center
+
+            h2
+                text-align: center
+                font-size: 60px
+
+            p
+                text-align: center
+
+@media screen and (max-width: 760px)
+    .containerShapeInfo
+
+        .cardLeft
+
+            h2
+                font-size: 30px
+
+            p
+                font-size: small
+
+@media screen and (max-width: 500px)
+    .containerShapeInfo
+        margin: 50px auto
+
+        .cardLeft
+            width: 300px
+
+            h2
+                font-size: 20px
+
+            p
+                font-size: xx-small
+                width: 300px
+
+        .cardRight
+            width: 300px
+            display: flex
+            flex-direction: column-reverse
+            gap: 1.5em
+            justify-content: center
+            align-items: center

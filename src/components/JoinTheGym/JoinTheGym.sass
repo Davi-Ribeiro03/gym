@@ -28,3 +28,65 @@
             background-size: cover
             width: 400px
             height: 330px
+
+@media screen and (max-width: 1170px)
+    .containerJoinTheGym
+        padding: auto 20px
+
+        .text
+            display: flex
+            flex-direction: column
+            gap: 2.5em
+            width: 330px
+
+            h2
+                font-size: x-large
+
+            p
+                width: 240px
+
+@media screen and (max-width: 950px)
+    .containerJoinTheGym
+        width: 780px
+
+@media screen and (max-width: 800px)
+    .containerJoinTheGym
+        height: 230px
+        width: 95%
+        flex-wrap: wrap
+
+        .text
+            gap: 1.5em
+            padding-left: 20px
+
+            h2
+                font-size: large
+
+            p
+                font-size: x-small
+                width: 240px
+
+        .img
+
+            .imgInstructor
+                background-size: contain
+                background-position: center
+                width: 220px
+                height: 220px
+
+@media screen and (max-width: 580px)
+    .containerJoinTheGym
+        display: flex
+        flex-direction: column
+        flex-wrap: nowrap
+        height: 400px
+        width: 70%
+        align-items: center
+        justify-content: center
+        background: linear-gradient(180deg, rgba(253,210,245,1) 8%, rgba(26,238,232,1) 56%, rgba(253,210,245,1) 94%)
+
+        .text
+            padding: 0px
+            justify-content: center
+            align-items: center
+            width: 100%

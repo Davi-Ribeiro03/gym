@@ -28,7 +28,7 @@ const Footer = () => {
           </section>
         </div>
 
-        <section className="cardFooter">
+        <section className="cardFooter company">
           <p className="title">Company</p>
           <p>Home</p>
           <p>Class</p>
@@ -36,7 +36,7 @@ const Footer = () => {
           <p>Trainers</p>
           <p>Blog</p>
         </section>
-        <section className="cardFooter">
+        <section className="cardFooter category">
           <p className="title">Category</p>
           <p>Strengh Training</p>
           <p>Body Building</p>
@@ -44,7 +44,7 @@ const Footer = () => {
           <p>Basic Yoga</p>
           <p>Physical Fitness</p>
         </section>
-        <div className="cardFooter">
+        <div className="cardFooter contactUs">
           <p className="title">Contact Us</p>
           <section className="contact">
             <img src={Telefone} alt="" />

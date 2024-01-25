@@ -19,9 +19,9 @@
 
     .cardBenefitsHome
         background-color: #202020
-        width: 80%
+        width: 1150px
         height: auto
-        padding: 80px 0px
+        padding: 70px 0px
         border-radius: 40px
         background-image: url('../../assets/benefitsImg.svg')
         background-repeat: no-repeat
@@ -38,4 +38,59 @@
             align-items: center
             width: 65%
             height: 90%
-            gap: 1em
+            gap: 2em
+
+@media screen and (max-width: 1200px)
+    .containerBenefitsHome
+        .cardBenefitsHome
+            width: 1030px
+            padding: 50px 0px
+
+@media screen and (max-width: 1040px)
+    .containerBenefitsHome
+        .cardBenefitsHome
+            background-image: none
+            width: 80%
+            padding: 20px 15px
+
+            .benefitsInfo
+                width: 100%
+                gap: 2em
+                justify-content: center
+
+@media screen and (max-width: 953px)
+    .containerBenefitsHome
+        .cardBenefitsHome
+            background-image: none
+            width: 50%
+            padding: 20px 15px
+
+            .benefitsInfo
+                width: 100%
+                gap: 2em
+                justify-content: center
+
+@media screen and (max-width: 700px)
+    .containerBenefitsHome
+        p
+            font-size: small
+
+        .cardBenefitsHome
+            background-image: none
+            width: 70%
+            padding: 20px 15px
+
+            .benefitsInfo
+                width: 100%
+                gap: 2.5em
+                justify-content: center
+
+@media screen and (max-width: 505px)
+    .containerBenefitsHome
+        margin: 50px auto
+
+        p
+            width: 70%
+
+        .cardBenefitsHome
+            width: 90%

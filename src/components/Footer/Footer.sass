@@ -62,9 +62,54 @@
 
     .terms
         width: 80%
-
         opacity: .6
         display: flex
         flex-direction: row
         gap: 20px
         margin: 20px auto
+
+@media screen and (max-width: 980px)
+    .containerFooter
+        .footer
+            justify-content: space-between
+            .company,.category
+                display: none
+            .cardFooter
+                margin-top: 10px
+                .title
+                    text-align: center
+
+@media screen and (max-width: 600px)
+    .containerFooter
+        .footer
+            gap: 2em
+
+            .cardFooter-content:
+                align-items: center
+
+            .gymnastic
+                display: flex
+                flex-direction: column
+                gap: .5em
+
+                .logo
+                    width: 120px
+
+                p
+                    width: 200px
+                    font-size: x-small
+        .terms
+            font-size: small
+
+@media screen and (max-width: 470px)
+    .containerFooter
+        .footer
+            .cardFooter
+                display: none
+
+            .gymnastic
+                p
+                    width: 90%
+                    font-size: x-small
+        .terms
+            font-size: x-small

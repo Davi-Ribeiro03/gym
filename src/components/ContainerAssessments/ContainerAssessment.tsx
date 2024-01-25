@@ -7,6 +7,7 @@ import pessoa3 from "../../assets/pessoa3.jpg";
 import pessoa4 from "../../assets/pessoa4.jpg";
 import pessoa5 from "../../assets/pessoa5.jpg";
 import quote from "../../assets/quote.png";
+import { useEffect, useState } from "react";
 
 const props = {
   size: 20,
@@ -47,6 +48,26 @@ const dataSlide = [
 ];
 
 const ContainerAssessment = () => {
+  const [slidesPerView, setSlidesPerView] = useState(2);
+
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth < 970) {
+        setSlidesPerView(1);
+      } else {
+        setSlidesPerView(2);
+      }
+    }
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="containerAssessment">
       <h2> Testimonial</h2>
@@ -61,7 +82,7 @@ const ContainerAssessment = () => {
         <p>4.5(895)star reviews from our clients</p>
       </section>
       <div className="slider">
-        <Swiper slidesPerView={2} pagination={{ clickable: true }} navigation>
+        <Swiper slidesPerView={slidesPerView} navigation>
           {dataSlide.map((data) => (
             <SwiperSlide key={data.name}>
               <div className="cardSlide">

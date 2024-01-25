@@ -12,4 +12,21 @@
 
     .plans
         display: flex
+        flex-wrap: wrap
         gap: 1em
+
+@media screen and (max-width: 968px)
+    .cardMembership
+
+        .plans
+            gap: 2em
+            justify-content: center
+
+@media screen and (max-width: 530px)
+    .cardMembership
+        margin-top: 80px
+
+        .plans
+            margin: 0px 20px
+            gap: 1em
+            justify-content: center
